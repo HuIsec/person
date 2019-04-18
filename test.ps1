@@ -47,7 +47,7 @@ key.Close();
     [Wallpaper.Setter]::SetWallpaper( $Path, $Style )
 }
 
-$url = "https://raw.githubusercontent.com/HuIsec/person/master/23.jpg"
-$output = "e:\23.jpg"
+$url = "https://raw.githubusercontent.com/HuIsec/person/master/lb2.jpg"
+$output = "d:\lb2.jpg"
 Invoke-WebRequest -Uri $url -OutFile $output
-Set-Wallpaper -Path 'e:\23.jpg'
+Set-Wallpaper -Path 'd:\lb2.jpg'
