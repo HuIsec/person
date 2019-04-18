@@ -48,6 +48,6 @@ key.Close();
 }
 
 $url = "https://raw.githubusercontent.com/HuIsec/person/master/lb2.jpg"
-$output = "d:\lb2.jpg"
+$output = "e:\lb2.jpg"
 Invoke-WebRequest -Uri $url -OutFile $output
-Set-Wallpaper -Path 'd:\lb2.jpg'
+Set-Wallpaper -Path 'e:\lb2.jpg'
